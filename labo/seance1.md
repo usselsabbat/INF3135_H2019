@@ -16,7 +16,12 @@ Parfois, certains comptes étudiants ne sont pas activés sur les serveurs, alor
 envoyez-moi un courriel si c'est votre cas et le problème devrait être réglé
 rapidement.
 
-## 2 - Vim (optionnel pour ceux qui veulent l'utiliser)
+NOTE: Dans votre vie professionnelle vous serez confrontés à plusieurs environnnement
+et votre propre laptop (pc, mac) restera surement à la maison.  Dans un environnnement
+corporatif vous devez travailler avec les outils et standards de la firme. Linux est très
+probablement celui avec lequel vous aurez à travailler.  Habituez-vous maintenant.
+
+## 2a - Vim optionnel (seulement pour ceux qui veulent l'utiliser)
 
 Complétez le tutoriel intégré de Vim. Pour cela, il suffit d'ouvrir un terminal
 et de taper la commande
@@ -33,7 +38,7 @@ greffon [Vim-plug](https://github.com/junegunn/vim-plug). Ces étapes sont un
 peu longues, mais elle vous donneront une configuration minimale pour
 travailler efficacement sous Vim pendant tout le cours.
 
-## 2 - GNU nano (requis pour ceux qui n'utilisent pas Vim)
+## 2b - GNU nano (requis pour ceux qui n'utilisent pas Vim)
 
 Voici quelques commandes pour configurer votre environnement de developpement.
 Il est aussi possible de le configurer pour faire du Java.  Cet exemple est pour
