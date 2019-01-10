@@ -99,7 +99,7 @@ souhaitez apporter des modifications à vos *commits*
 
 ## 5 - Annuler des modifications avec Git
 
-Il y a plusieurs façon d'annuler des modifications dans Git:
+Il y a plusieurs façons d'annuler des modifications dans Git:
 
 * En modifiant le dernier *commit* grâce à la commande `git commit --amend`
 * En retirant des fichiers du *commit* en cours de construction (*unstaging*)
@@ -207,7 +207,7 @@ $ vim .gitignore
 ```
 
 Modifier le fichier pour y ajouter les choses que vous ne voulez pas gérer dans
-le gestionnnaire de version (une expression par ligne). Par exemple, vous pourriez
+le gestionnaire de version (une expression par ligne). Par exemple, vous pourriez
 inclure les lignes suivantes:
 
 ```shell
@@ -254,7 +254,7 @@ bin/
   tenter de le faire fonctionner (n'oubliez pas d'installer les dépendances si
   vous utilisez votre machine personnelle).
 - Lisez le fichier `README.md` pour comprendre comment fonctionne le projet (il
-  n'est pas nécessaire de tout comprendre en détails, juste d'avoir une idée de
+  n'est pas nécessaire de tout comprendre en détail, juste d'avoir une idée de
   ce que ça fait).
 - Tentez de faire fonctionner le projet (les informations pertinentes se
   trouvent dans le fichier `README`). Notez que vous devez absolument installer
@@ -265,3 +265,4 @@ bin/
       différents moments.
     - Utilisez la commande `git show` pour vous les modifications apportées
       dans un *commit* précis.
+
