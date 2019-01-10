@@ -10,7 +10,7 @@
 - seance 1
 - seance 2
 
-Le matériel sera mis a jour sur une base régulière. 
+Le matériel sera mis à jour sur une base régulière. 
 
 Merci pour votre confiance, bonne session a tous.
 
