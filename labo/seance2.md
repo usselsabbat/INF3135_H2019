@@ -11,6 +11,8 @@ $ cd
 $ mkdir execices
 ~~~~
 
+pour changer de repertoire essayez ceci :
+
 ```$ cd ex``` <kbd>TAB</kbd>
 
 ## 1 - Pratiquer les commandes Unix
@@ -216,7 +218,7 @@ l'aide d'une expression régulière.
 Par exemple, créez un fichier nommé ".gitignore" à la racine de votre projet.
 
 ```shell
-$ vim .gitignore
+$ nano .gitignore
 ```
 
 Modifier le fichier pour y ajouter les choses que vous ne voulez pas gérer dans
@@ -278,4 +280,3 @@ bin/
       différents moments.
     - Utilisez la commande `git show` pour vous les modifications apportées
       dans un *commit* précis.
-
