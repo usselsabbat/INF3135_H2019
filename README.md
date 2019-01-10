@@ -5,7 +5,9 @@
 - séance 1 introduction.pdf
 - seance 2 
 
-Le matériel sera mis a jour sur une base régulière. Merci pour votre confiance, bonne session a tous.
+Le matériel sera mis a jour sur une base régulière. 
+
+Merci pour votre confiance, bonne session a tous.
 
 Guy Francoeur
 
