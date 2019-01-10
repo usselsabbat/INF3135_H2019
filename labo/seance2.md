@@ -9,8 +9,9 @@ endroit.  Les commandes : pour changer de repertoire et créer des répertoires 
 ~~~~
 $ cd
 $ mkdir execices
-$ cd ex <kbd>TAB</kbd>
 ~~~~
+
+```$ cd ex``` <kbd>TAB</kbd>
 
 ## 1 - Pratiquer les commandes Unix
 
