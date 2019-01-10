@@ -1,5 +1,17 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
+## 0 - Préparation avent de commencer
+
+Il serait important de pensé.  Comment et ou devrais-je garder mes fichiers.
+Peut-être que des répertoires sont nécessaire pour ne pas mettre tout au même
+endroit.  La commande pour créer des répertoires?
+
+~~~~
+$ cd
+$ mkdir execices
+$ cd ex `+ TAB key`
+~~~~
+
 ## 1 - Pratiquer les commandes Unix
 
 Dans la première partie de ce laboratoire, vous allez pratiquer les commandes
@@ -24,7 +36,7 @@ suivantes :
     ```shell
     gcc hello.c
     ```
-  Ceci produit un exécutable `a.out`.
+  Ceci produit un exécutable a.out`.
 
 - Il est aussi possible que cet exécutable ait un nom que vous choisissez, par
   exemple:
