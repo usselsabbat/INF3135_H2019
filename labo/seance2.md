@@ -1,15 +1,15 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
-## 0 - Préparation avent de commencer
+## 0 - Préparation avant de commencer
 
-Il serait important de pensé.  Comment et ou devrais-je garder mes fichiers.
-Peut-être que des répertoires sont nécessaire pour ne pas mettre tout au même
-endroit.  La commande pour créer des répertoires?
+Il serait important de pensé à une stratégie de répertoire afin de garder mes fichiers
+dans un structure adequate.  Des répertoires sont nécessaire pour ne pas mettre tout au même
+endroit.  Les commandes : pour changer de repertoire et créer des répertoires est nécessaire.
 
 ~~~~
 $ cd
 $ mkdir execices
-$ cd ex `+ TAB key`
+$ cd ex <kbd>TAB</kbd>
 ~~~~
 
 ## 1 - Pratiquer les commandes Unix
