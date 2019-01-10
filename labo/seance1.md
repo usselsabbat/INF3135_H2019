@@ -16,9 +16,9 @@ Parfois, certains comptes étudiants ne sont pas activés sur les serveurs, alor
 envoyez-moi un courriel si c'est votre cas et le problème devrait être réglé
 rapidement.
 
-NOTE: Dans votre vie professionnelle vous serez confrontés à plusieurs environnnement
-et votre propre laptop (pc, mac) restera surement à la maison.  Dans un environnnement
-corporatif vous devez travailler avec les outils et standards de la firme. Linux est très
+NOTE: Dans votre vie professionnelle, vous serez confrontés à plusieurs environnements
+et votre propre laptop (pc, mac) restera sûrement à la maison.  Dans un environnement
+corporatif, vous devez travailler avec les outils et standards de la firme. Linux est très
 probablement celui avec lequel vous aurez à travailler.  Habituez-vous maintenant.
 
 ## 2a - Vim optionnel (seulement pour ceux qui veulent l'utiliser)
@@ -125,14 +125,14 @@ la syntaxe Markdown:
     Notez que quand vous créez un nouveau dépôt dans GitLab ou GitHub, il vous
     est demandé de taper les commandes suivantes:
 
-	```
-	git config --global user.name "Nom Prénom"
-	git config --global user.email "email@domaine.ext"
-	```
+ ```
+ git config --global user.name "Nom Prénom"
+ git config --global user.email "email@domaine.ext"
+ ```
 
     La commande `git config --global <clé> <valeur>` sert à modifier le fichier
     `~/.gitconfig`. Lors de la cŕeation de vos prochains dépôts, vous n'aurez
-    pas besoin de taper ces commandes car votre configuration est déjà définie.
+    pas besoin de taper ces commandes, car votre configuration est déjà définie.
 
 - Dans un terminal, rendez-vous dans le répertoire qui contient votre projet
   avec les fichiers `hello.c` et `README.md`. Entrez la commande
