@@ -5,17 +5,21 @@
 ### Matériel du cours INF3135 H2019
 
 #### Cours:
-- séance 1 introduction.pdf
+- séance 1 introduction
 - séance 2 base du langage C partie 1
+- séance 3 base du langage C partie 2
 
 #### Laboratoires:
 - séance 1
 - séance 2
 - séance 3
 
-Le matériel sera mis à jour sur une base régulière. 
+Les moniteurs de laboratoire sont Alexandre Lachapelle et Hamara Touré.
 
-Merci pour votre confiance, bonne session a tous.
+
+Le matériel sera mis à jour sur une base régulière.
+
+Merci, bonne session à tous.
 
 Guy Francoeur
 
