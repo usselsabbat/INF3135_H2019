@@ -1,0 +1,16 @@
+# Fichiers C
+*.o
+*.out
+
+# Fichiers Vim
+*.swo
+*.swp
+
+# Fichiers temporaires
+*.old
+*.tmp
+*.bak
+*(0).*
+
+# Exemple de répertoire à ignorer
+bin/
