@@ -17,7 +17,7 @@ Merci pour votre confiance, bonne session a tous.
 
 Guy Francoeur
 
-### **Référence** 
+### Référence: 
 
 Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration. 
 
