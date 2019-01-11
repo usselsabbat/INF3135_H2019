@@ -16,7 +16,10 @@ Merci pour votre confiance, bonne session a tous.
 
 Guy Francoeur
 
+**References** 
+
+Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration. 
 
 ----
 
-Auteur original Alexandre Blondin Massé, Professeur
+Auteur Guy Francoeur
