@@ -6,7 +6,7 @@
 
 #### Cours:
 - séance 1 introduction.pdf
-- séance 2 
+- séance 2 base du langage C partie 1
 
 #### Laboratoires:
 - séance 1
