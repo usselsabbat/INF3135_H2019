@@ -4,11 +4,12 @@
 
 ### Cours:
 - séance 1 introduction.pdf
-- seance 2 
+- séance 2 
 
 ### Laboratoires:
-- seance 1
-- seance 2
+- séance 1
+- séance 2
+- séance 3
 
 Le matériel sera mis à jour sur une base régulière. 
 
@@ -16,7 +17,7 @@ Merci pour votre confiance, bonne session a tous.
 
 Guy Francoeur
 
-**References** 
+__References__ 
 
 Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration. 
 
