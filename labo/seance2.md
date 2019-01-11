@@ -280,3 +280,7 @@ bin/
       différents moments.
     - Utilisez la commande `git show` pour vous les modifications apportées
       dans un *commit* précis.
+
+---
+
+Auteur original Alexandre Blondin Massé, Professeur

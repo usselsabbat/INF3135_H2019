@@ -200,3 +200,7 @@ la syntaxe Markdown:
   la page d'accueil du projet. Assurez-vous toujours de bien respecter le
   format Markdown pour que la génération du fichier HTML apparaisse
   correctement en visualisant l'ensemble du fichier.
+
+---
+
+Auteur original Alexandre Blondin Massé, Professeur
