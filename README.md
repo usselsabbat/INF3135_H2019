@@ -1,12 +1,14 @@
 # INF3135_H2019
 
-## Matériel du cours INF3135 H2019
+## Construction et maintenance de logiciels
 
-### Cours:
+### Matériel du cours INF3135 H2019
+
+#### Cours:
 - séance 1 introduction.pdf
 - séance 2 
 
-### Laboratoires:
+#### Laboratoires:
 - séance 1
 - séance 2
 - séance 3
@@ -17,10 +19,10 @@ Merci pour votre confiance, bonne session a tous.
 
 Guy Francoeur
 
-### Référence: 
+#### Référence: 
 
 Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration. 
 
 ----
 
-Auteur Guy Francoeur
+##### Auteur Guy Francoeur
