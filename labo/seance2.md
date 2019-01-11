@@ -283,4 +283,5 @@ bin/
 
 ---
 
-Auteur original Alexandre Blondin Massé, Professeur
+##### Auteur Guy Francoeur
+###### basé sur les travaux d'Alexandre Blondin Massé, Professeur
