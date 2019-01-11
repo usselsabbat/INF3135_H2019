@@ -16,7 +16,7 @@ Parfois, certains comptes étudiants ne sont pas activés sur les serveurs, alor
 envoyez-moi un courriel si c'est votre cas et le problème devrait être réglé
 rapidement.
 
-NOTE: Dans votre vie professionnelle, vous serez confrontés à plusieurs environnements
+**Note**: Dans votre vie professionnelle, vous serez confrontés à plusieurs environnements
 et votre propre laptop (pc, mac) restera sûrement à la maison.  Dans un environnement
 corporatif, vous devez travailler avec les outils et standards de la firme. Linux est très
 probablement celui avec lequel vous aurez à travailler.  Habituez-vous maintenant.

@@ -11,7 +11,7 @@ $ cd
 $ mkdir execices
 ~~~~
 
-pour changer de repertoire essayez ceci :
+pour changer de répertoire essayez ceci :
 
 ```$ cd ex``` <kbd>TAB</kbd>
 
