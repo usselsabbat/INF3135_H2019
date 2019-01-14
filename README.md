@@ -6,7 +6,7 @@
 
 #### Cours:
 - séance 1 introduction
-- séance 2 base du langage C partie 1
+- séance 2 base du langage C partie 1 (retour sur ssh et linux)
 - séance 3 base du langage C partie 2
 
 #### Laboratoires:
