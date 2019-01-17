@@ -27,7 +27,7 @@ Complétez le tutoriel intégré de Vim. Pour cela, il suffit d'ouvrir un termin
 et de taper la commande
 
 ```shell
-vimtutor
+$ vimtutor
 ```
 
 Puis suivez les instructions.
@@ -119,7 +119,7 @@ $ git config --global color.ui auto
     `~/.gitconfig`. Lors de la création de vos prochains dépôts, vous n'aurez
     pas besoin de taper ces commandes, car votre configuration est déjà définie.
 
-- Pour voir les configurations contenues dans le fichier `~/.gitconfig`, lancez cette commande :
+- Pour voir les configurations contenues dans le fichier `~/.gitconfig`, taper cette commande :
 
 ~~~~
 $ git config --list
@@ -129,7 +129,7 @@ $ git config --list
 - Maintenant vous devez créer une structure de répertoire qui est facile et simple pour que
 vous puissiez vous y retrouver. Nous avons besoin d'un répertoire pour y mettre notre nos fichiers. Celui-ci servira de dépôt local.
 
-- Créer votre structure de répertoire. `mkdir`, `cd`, `pwd`, sont nécessaire pour accomplir cette tâche.
+- Créer votre structure de répertoire. `mkdir`, `cd` et `pwd` sont nécessaires pour accomplir cette tâche.
 
 - Déplacez-vous dans le répertoire.  Voici un exemple : 
 
@@ -137,14 +137,14 @@ vous puissiez vous y retrouver. Nous avons besoin d'un répertoire pour y mettre
 $ cd $HOME/depot/gitlab/repo_test/
 ~~~~
 
-- Maintenant vous allez créer ou déplacer les fichiers `hello.c` et `README.md`. Les commandes `mv`, `cp`, `nano`, `touch` sont utiles pour accomplir cette tâche.
+- Maintenant vous allez créer ou déplacer les fichiers `hello.c` et `README.md`. Les commandes `mv`, `cp`, `nano` et `touch` sont utiles pour accomplir cette tâche.
 
 ~~~~
-$ 
+$
 ~~~~
 
 #### Étape 5.4
-- Lancez la commande suivante pour initialiser le `repository` aussi appelé `projet` :
+- Taper la commande suivante pour initialiser le `repository` aussi appelé `projet` :
 
     ```shell
     $ pwd
@@ -211,7 +211,7 @@ $
     indique les commandes à entrer dans une boîte sur la page d'accueil vers le
     bas.)
 
-### Étape 5.6
+#### Étape 5.6
 
 - Finalement, taper les commandes :
 
