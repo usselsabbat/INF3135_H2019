@@ -5,14 +5,13 @@
 
   De plus, vos sources seront maintenues dans un gestionnaire de version/source de type git.
   
-  Nous allons aussi dans ce travail `automatiser` à l'aide la commande `make` et du fichier `Makefile`.
+  Vous allez aussi vous familiariser avec `make` et le fichier `Makefile` afin `d'automatiser` plusieurs tâches utiles.
 
 # Description du travail
 
   Le programme doit découvrir des `nombres parfaits`.  Un nombre est dit parfait lorsque la somme des tous ses diviseurs (excluant lui-même bien sûr) est égal à lui-même.
 
-
-  Le programme tp1 doit pouvoir être lancé en ligne de commande avec les deux syntaxes suivantes :
+  Le programme `tp1` doit pouvoir être lancé en `ligne de commande` avec _minimalement_ les deux syntaxes suivantes :
 
 *   ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext -o fichier_sortie.ext
 *   ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
@@ -22,7 +21,7 @@
 *  -o `<fichier traité en sortie>`
 
   Avec la deuxième méthode, vous avez compris que le programme accepte les données par l'entrée standard `stdin` et produit le résultat dans la sortie standard `stdout`.
-  **Note**: il se pourrait que la sortie standard `stdout` soit utilisé avec `-i`.
+  **Note**: il se pourrait que la sortie standard `stdout` soit utilisée avec `-i`.
 
 #### Vous devez réaliser le travail selon les contraintes suivantes:
 
