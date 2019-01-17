@@ -46,9 +46,7 @@ le langage C. Mais regarder les fichiers disponibles pour les autres langages.
 
 ```shell
 $ ls -lahs /usr/share/nano
-
 $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
-
 $ pwd
 ```
 
@@ -92,8 +90,9 @@ la syntaxe Markdown:
 - Insertion d'une image;
 - etc.
 
-## 5 - Création d'un projet avec GitLab
+## 5 - Création d'un projet avec GitLab (GitHub à venir)
 
+#### Étape 5.1
 - Rendez-vous tout d'abord sur le site de [GitLab](https://gitlab.com/) pour vous créer
   un compte. Prenez un nom d'utilisateur significatif , car il est probable que vous 
   le réutiliserez dans l'avenir (autre que ce cours). Évitez les noms bizarres, comme
@@ -104,7 +103,7 @@ la syntaxe Markdown:
 - Créez un nouveau dépôt, donnez-lui un nom significatif, laissez la description vide et
   les autres options par défaut puis confirmez la création.
 
-### Étape 5.2
+#### Étape 5.2
 - Connectez-vous au serveur `java.launix.uqam.ca`
 
 - Tout d'abord il faut configurer l'environnement. Ceci est nécessaire pour que vous soyez en mesure de connecter le dépôt `GitLab`.
@@ -126,7 +125,7 @@ $ git config --global color.ui auto
 $ git config --list
 ~~~~
 
-### Étape 5.3
+#### Étape 5.3
 - Maintenant vous devez créer une structure de répertoire qui est facile et simple pour que
 vous puissiez vous y retrouver. Nous avons besoin d'un répertoire pour y mettre notre nos fichiers. Celui-ci servira de dépôt local.
 
@@ -144,8 +143,7 @@ $ cd $HOME/depot/gitlab/repo_test/
 $ 
 ~~~~
 
-### Étape 5.4
-
+#### Étape 5.4
 - Lancez la commande suivante pour initialiser le `repository` aussi appelé `projet` :
 
     ```shell
@@ -176,7 +174,7 @@ $
 - Ensuite, entrez
 
     ```shell
-    git commit
+    $ git commit
     ```
 
 - Cela devrait ouvrir l'éditeur pour que vous écriviez un message de commit. Écrivez
@@ -186,13 +184,13 @@ $
     Première version de mon programme Hello, world!
     ```
 
-- La version rapide (sans l'ouverture de l'éditeur) de faire le message est  :
+- Une façon de faire le message lors du `commit` qui est rapide et simple (sans l'ouverture de l'éditeur) est  :
 
     ```shell
-    git commit -m "Première version de mon programme Hello, world!"
+    $ git commit -m "Première version de mon programme Hello, world!"
     ```
 
-### Étape 5.5
+#### Étape 5.5
 
 - Ensuite, il vous faut établir le lien entre votre dépôt local et celui sur GitLab. 
   Il y a deux commandes possibles. La première qui utilise le protocole `SSH`
@@ -200,12 +198,12 @@ $
 
     SSH :
     ```shell
-    git remote add origin git@gitlab.com:<nom d'utilisateur>/<nom du projet>.git
+    $ git remote add origin git@gitlab.com:<nom d'utilisateur>/<nom du projet>.git
     ```
 
     HTTPS
     ```shell
-    git remote add origin https://gitlab.com/<nom d'utilisateur>/<nom du projet>.git
+    $ git remote add origin https://gitlab.com/<nom d'utilisateur>/<nom du projet>.git
     ```
 
     (Au début, je ne me rappelais jamais de la commande par coeur, alors je me
@@ -215,7 +213,7 @@ $
 
 ### Étape 5.6
 
-- Finalement, taper les commandes
+- Finalement, taper les commandes :
 
     ```shell
     $ git pull origin master
