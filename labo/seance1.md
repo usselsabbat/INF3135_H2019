@@ -113,6 +113,7 @@ $ git config --global user.name "username"
 $ git config --global user.email "email@domaine.ext"
 $ git config --global core.editor nano
 $ git config --global color.ui auto
+$ git config --global push.default simple
 ~~~~
 
     La commande `git config --global <clé> <valeur>` sert à modifier le fichier
@@ -219,6 +220,7 @@ $
     $ git pull origin master
     $ git push origin master
     $ git status
+    $ git config --global credential.helper 'cache --timeout 3600'
     ```
 
 - Ceci devrait avoir pour effet de "pousser" vos modifications locales sur le
@@ -227,6 +229,8 @@ $
   la page d'accueil du projet. Assurez-vous toujours de bien respecter le
   format Markdown pour que la génération du fichier HTML apparaisse
   correctement en visualisant l'ensemble du fichier.
+
+- La derniere commande garde en cache votre `usager` et `mot de password` pour une durée d'une heure. C'est plutôt utile non?
 
 ---
 
