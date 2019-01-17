@@ -90,6 +90,9 @@ la syntaxe Markdown:
 - Insertion d'une image;
 - etc.
 
+Vous pouvez apprendre à l'aide du [Tutoriel](https://www.markdowntutorial.com/).
+Vous pouvez utiliser [Stackedit.io](https://stackedit.io) pour vous permettre de tester votre fichier Markdown.
+
 ## 5 - Création d'un projet avec GitLab (GitHub à venir)
 
 #### Étape 5.1
