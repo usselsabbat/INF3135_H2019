@@ -27,7 +27,7 @@ Complétez le tutoriel intégré de Vim. Pour cela, il suffit d'ouvrir un termin
 et de taper la commande
 
 ```shell
-vimtutor
+$ vimtutor
 ```
 
 Puis suivez les instructions.
@@ -35,7 +35,7 @@ Puis suivez les instructions.
 Ensuite, téléchargez le fichier `.vimrc` disponible dans le répertoire
 `exemples` et placez-le dans le répertoire home. Il faut également installer le
 greffon [Vim-plug](https://github.com/junegunn/vim-plug). Ces étapes sont un
-peu longues, mais elle vous donneront une configuration minimale pour
+peu longues, mais elles vous donneront une configuration minimale pour
 travailler efficacement sous Vim pendant tout le cours.
 
 ## 2b - GNU nano (requis pour ceux qui n'utilisent pas Vim)
@@ -46,9 +46,7 @@ le langage C. Mais regarder les fichiers disponibles pour les autres langages.
 
 ```shell
 $ ls -lahs /usr/share/nano
-
 $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
-
 $ pwd
 ```
 
@@ -70,7 +68,7 @@ $ pwd
 - Compilez le fichier en une seule étape
 
     ```shell
-    gcc hello.c
+    $ gcc hello.c
     ```
 
 et exécutez le fichier résultant en entrant `./a.out` pour vous assurer que
@@ -92,56 +90,67 @@ la syntaxe Markdown:
 - Insertion d'une image;
 - etc.
 
-## 5 - Création d'un projet avec Git
+## 5 - Création d'un projet avec GitLab (GitHub à venir)
 
-- Rendez-vous tout d'abord sur le site de [GitLab](https://gitlab.com/) pour
-  vous créer un compte. Prenez un nom d'utilisateur significatif (par exemple,
-  le mien est `ablondin`), car il est probable que vous le réutiliserez plus
-  tard dans un cadre autre que ce cours. Évitez les noms bizarres, comme
+#### Étape 5.1
+- Rendez-vous tout d'abord sur le site de [GitLab](https://gitlab.com/) pour vous créer
+  un compte. Prenez un nom d'utilisateur significatif , car il est probable que vous 
+  le réutiliserez dans l'avenir (autre que ce cours). Évitez les noms bizarres, comme
   `demoniacbrain` ou `lord-of-the-ring`, car il y a de bonnes chances pour que
   ce compte vous soit utile après le cours dans un contexte professionnel
   (évidemment, ce n'est qu'une suggestion !).
 
-- Créez un nouveau dépôt, donnez-lui un nom significatif, laissez la
-  description vide et les autres options par défaut puis confirmez la création.
+- Créez un nouveau dépôt, donnez-lui un nom significatif, laissez la description vide et
+  les autres options par défaut puis confirmez la création.
 
-- Maintenant, à l'aide de nano, ouvrez le fichier `~/.gitconfig` et entrez les
-  lignes suivantes :
+#### Étape 5.2
+- Connectez-vous au serveur `java.launix.uqam.ca`
 
-    ```ini
-    [user]
-        name = <votre nom>
-        email = <votre courriel>
-    [color]
-        ui = auto
-    [core]
-        editor = nano  # ou vim
-    ```
+- Tout d'abord il faut configurer l'environnement. Ceci est nécessaire pour que vous soyez en mesure de connecter le dépôt `GitLab`.
 
-    (Lorsque vous deviendrez plus à l'aise avec Git, il est possible que vous
-    ayez à modifier ce fichier à nouveau, mais ça devrait vous suffire pour la
-    première partie du cours.)
-
-    Notez que quand vous créez un nouveau dépôt dans GitLab ou GitHub, il vous
-    est demandé de taper les commandes suivantes:
-
- ```
- git config --global user.name "Nom Prénom"
- git config --global user.email "email@domaine.ext"
- ```
+~~~~
+$ git config --global user.name "username"
+$ git config --global user.email "email@domaine.ext"
+$ git config --global core.editor nano
+$ git config --global color.ui auto
+$ git config --global push.default simple
+~~~~
 
     La commande `git config --global <clé> <valeur>` sert à modifier le fichier
-    `~/.gitconfig`. Lors de la cŕeation de vos prochains dépôts, vous n'aurez
+    `~/.gitconfig`. Lors de la création de vos prochains dépôts, vous n'aurez
     pas besoin de taper ces commandes, car votre configuration est déjà définie.
 
-- Dans un terminal, rendez-vous dans le répertoire qui contient votre projet
-  avec les fichiers `hello.c` et `README.md`. Entrez la commande
+- Pour voir les configurations contenues dans le fichier `~/.gitconfig`, taper cette commande :
+
+~~~~
+$ git config --list
+~~~~
+
+#### Étape 5.3
+- Maintenant vous devez créer une structure de répertoire qui est facile et simple pour que
+vous puissiez vous y retrouver. Nous avons besoin d'un répertoire pour y mettre notre nos fichiers. Celui-ci servira de dépôt local.
+
+- Créer votre structure de répertoire. `mkdir`, `cd` et `pwd` sont nécessaires pour accomplir cette tâche.
+
+- Déplacez-vous dans le répertoire.  Voici un exemple : 
+
+~~~~
+$ cd $HOME/depot/gitlab/repo_test/
+~~~~
+
+- Maintenant vous allez créer ou déplacer les fichiers `hello.c` et `README.md`. Les commandes `mv`, `cp`, `nano` et `touch` sont utiles pour accomplir cette tâche.
+
+~~~~
+$
+~~~~
+
+#### Étape 5.4
+- Taper la commande suivante pour initialiser le `repository` aussi appelé `projet` :
 
     ```shell
-    git init
+    $ pwd
+    $ git init
     ```
-
-    qui initialise le projet.
 
 - Ensuite, indiquez à Git que vous souhaitez versionner les deux fichiers
   décrits plus haut
@@ -166,21 +175,36 @@ la syntaxe Markdown:
 - Ensuite, entrez
 
     ```shell
-    git commit
+    $ git commit
     ```
 
-- Cela devrait ouvrir l'editeur pour que vous écriviez un message de commit. Écrivez
+- Cela devrait ouvrir l'éditeur pour que vous écriviez un message de commit. Écrivez
   quelque chose du genre
 
     ```shell
     Première version de mon programme Hello, world!
     ```
 
-- Ensuite, il vous faut établir le lien entre votre dépôt local et celui sur
-  GitLab. Pour cela, il suffit d'entrer la commande
+- Une façon de faire le message lors du `commit` qui est rapide et simple (sans l'ouverture de l'éditeur) est  :
 
     ```shell
-    git remote add origin git@gitlab.com:<nom d'utilisateur>/<nom du projet>.git
+    $ git commit -m "Première version de mon programme Hello, world!"
+    ```
+
+#### Étape 5.5
+
+- Ensuite, il vous faut établir le lien entre votre dépôt local et celui sur GitLab. 
+  Il y a deux commandes possibles. La première qui utilise le protocole `SSH`
+  la deuxième `HTTPS` :
+
+    SSH :
+    ```shell
+    $ git remote add origin git@gitlab.com:<nom d'utilisateur>/<nom du projet>.git
+    ```
+
+    HTTPS
+    ```shell
+    $ git remote add origin https://gitlab.com/<nom d'utilisateur>/<nom du projet>.git
     ```
 
     (Au début, je ne me rappelais jamais de la commande par coeur, alors je me
@@ -188,10 +212,15 @@ la syntaxe Markdown:
     indique les commandes à entrer dans une boîte sur la page d'accueil vers le
     bas.)
 
-- Finalement, entrez la commande
+#### Étape 5.6
+
+- Finalement, taper les commandes :
 
     ```shell
-    git push origin master
+    $ git pull origin master
+    $ git push origin master
+    $ git status
+    $ git config --global credential.helper 'cache --timeout 3600'
     ```
 
 - Ceci devrait avoir pour effet de "pousser" vos modifications locales sur le
@@ -200,6 +229,8 @@ la syntaxe Markdown:
   la page d'accueil du projet. Assurez-vous toujours de bien respecter le
   format Markdown pour que la génération du fichier HTML apparaisse
   correctement en visualisant l'ensemble du fichier.
+
+- La derniere commande garde en cache votre `usager` et `mot de password` pour une durée d'une heure. C'est plutôt utile non?
 
 ---
 
